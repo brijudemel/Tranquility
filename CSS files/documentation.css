@@ -1,0 +1,92 @@
+*
+{
+	font-family: Montserrat,sans-serif;
+}
+h1,h3
+{
+	font-weight: bold;
+}
+button#login
+{
+	width:200px;
+	background-color: #2D4059;
+	color: #FFB400;
+	padding: 10px 30px;
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+#tranquility
+{
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-size:25px;
+}
+
+.slide1
+{
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	height: 400px;
+}
+.slide2
+{
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	height: 400px;
+}
+.image1
+{
+	position: absolute;
+	right: 100px;
+	width: 40%;
+	padding: 50px;
+	height: 100%
+}
+.image2
+{
+	position: absolute;
+	left: 70px;
+	padding: 20px;
+	width: 30%;
+	height: auto;
+}
+.expl1
+{
+	position: absolute;
+	left: 30px;
+	padding: 20px;
+	width: 50%;
+	height: auto;
+}
+.expl2
+{
+	position: absolute;
+	right: 30px;
+	left: 400px;
+	width: 50%;
+	padding: 50px;
+	height: 100%;
+	color: #78281F;
+}
+img
+{
+	border-radius: 150px;
+}
+div.heading
+{
+	position: static;
+	background-color: #ABB2B9;
+	width: 100%;
+	height: 20px;
+}
+p.heading
+{
+	padding-left: 50px;
+	size: 5px;
+	color: #424949;
+}

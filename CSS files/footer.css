@@ -1,0 +1,42 @@
+.form
+{
+	padding: 5px;
+}
+.link
+{
+	color:#000000;
+	text-decoration: none;
+}
+.link:hover
+{
+	color:blue;
+	text-decoration: none;
+}
+ ul {
+  list-style-type: none;
+ }
+.foot
+ {
+ 	background-color: #55575e;
+ 	color:white;
+ 	text-align: center;
+ }input[type=text].b,input[type=email].b
+{
+	width: 30%;
+	padding: 5px 10px;
+	margin: 5px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit].b
+{
+    background-color: #2D4059;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,54 @@
+#tranquility
+	{
+		font-family: "Times New Roman";
+		font-style: italic;
+		font-size:25px;
+	}
+	.nav-link
+	{
+		color: #000000;
+	}
+	button#login
+		{
+			width:120px;
+			background-color: #2D4059;
+  			color: #FFB400;
+  			padding: 10px 30px;
+  			border-radius: 30px;
+  			text-align: center;
+  			text-decoration: none;
+ 			display: inline-block;
+  			font-size: 20px;
+		}
+		.link
+		{
+			color:#000000;
+			text-decoration: none;
+		}
+		.nav-link:hover
+		{
+			color: #2D4059;
+		}
+		#signuptxt
+		{
+			color:#000000;
+		}
+		#signuptxt:link
+		{
+			text-decoration: underline;
+		}
+		#signuptxt:hover
+		{
+			color:#FFFFFF;
+			text-decoration: underline;
+		}
+		nav
+		{
+			background-color: #FFB400;
+			position: static;
+			width: 100%;
+		}
+		a.navbar-brand
+		{
+			color: #2D4059;
+		}

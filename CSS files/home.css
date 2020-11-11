@@ -1,0 +1,101 @@
+*
+{
+	font-family: Montserrat,sans-serif;
+}
+#services_offered
+{
+	padding: 30px 60px 30px;
+	background-color: #EAECEE;
+}
+.services_head
+{
+	padding: 10px;
+}
+.services_content
+{
+	padding: 20px;
+}
+.meditation_icon
+{
+	padding-top: 10px;
+}
+#review_form
+{
+	margin: 30px 500px 30px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+
+}
+input[type=text].a,input[type=email].a
+{
+	width: 80%;
+	padding: 5px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=text].b,input[type=email].b
+{
+	width: 30%;
+	padding: 5px 10px;
+	margin: 5px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit].a
+{
+    background-color: #2D4059;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type=submit].b
+{
+    background-color: #2D4059;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.feedback-title
+{
+	padding: 20px;
+	font-weight: bold;
+}
+#review_form_div
+{
+	align-items: center;
+}
+.form
+{
+	padding: 5px;
+}
+.link
+{
+	color:#000000;
+	text-decoration: none;
+}
+.link:hover
+{
+	color:blue;
+	text-decoration: none;
+}
+ ul {
+  list-style-type: none;
+ }
+.foot
+ {
+ 	background-color: #55575e;
+ 	color:white;
+ 	text-align: center;
+ }
