@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+      <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4VLWMLQc3XVEnCyyFA8-QLh1QMR-X_njlznr91RiOqjVOVtscRfafw981mFy9fIjD0B-fI2fi2CXc5k9R4YlbgKNxgZzL9FQfIM3xK84-lGEC3LOYVpCslHneZ0Gjzokhsd6Bni6MOaWHDNIz4bJSIk3S95T3ivEqxaulG09YDTum8wdH5iSOkKB7aIblYrP4Ch-BiY8dDZsa8q7dcKPY6jKbaJafIIU-bdSXQoOjVgGO9iZLudFmmSw7wHXYWPRnkHuYAABx-eoYZ9PfMENIrbGwTS0QhZX6F_KHiBrny062uGf1DJ7JEMjjim50864KUrVM4m8OJVRXymjs9XYjw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMDgtNGstZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy90Y2g2ams1ZnMxcGg0b2gyb2pyMTZwMWxsajA4aWltOS91am9nYnVsbnRkYTc4b3E3Z3B1bGMybWxrNDI0dGZvcy8xNjA1MDM4NzAwMDAwLzA3NjQzNjExNzQ1Mjc4Nzg5NjAzLzAzNjg4MTQwNTI3NjAzMzUyODE5LzF5NXJyTi1aZnd6cGhRLWprV2RmZjRfTjlXT2t0bXp0aj9lPWRvd25sb2FkJmF1dGh1c2VyPTA"/><h1>q34g</h1>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <audio loop src="../../media/1.mp3" id="song"></audio>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIxRghmUXEF6J8ca7WcQUL8IbuuB4PBskfJw&usqp=CAU" alt="background" id="BG" />
+    <div class="container">
+      <div class="song-name"></div>
+        
+      <div class="song-title">Five Rites</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIxRghmUXEF6J8ca7WcQUL8IbuuB4PBskfJw&usqp=CAU" alt="thumbnail" id="thumbnail" />
+      <div class="box"></div>
+      <img src="http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico" alt="play/pause" onclick="playPause()" id="pp" />
+      <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="nextSong" id="ns" onclick="nextSong()" />
+      <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="previousSong" id="ps" onclick="previousSong()" />
+      <input
+        type="range"
+        id="progressBar"
+        min="0"
+        max=""
+        value="0"
+        onchange='const progressBar = document.querySelector("#progressBar");
+        document.querySelector("#song").currentTime = progressBar.value;'
+      >
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
